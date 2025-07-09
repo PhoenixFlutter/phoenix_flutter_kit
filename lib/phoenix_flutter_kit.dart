@@ -1,8 +1,3 @@
+library phoenix_flutter_kit;
 
-import 'phoenix_flutter_kit_platform_interface.dart';
-
-class PhoenixFlutterKit {
-  Future<String?> getPlatformVersion() {
-    return PhoenixFlutterKitPlatform.instance.getPlatformVersion();
-  }
-}
+export 'utils/asset_loader.dart';

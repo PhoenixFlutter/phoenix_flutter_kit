@@ -1,0 +1,26 @@
+{
+  "dns": {
+    "servers": [
+      {
+        "tag": "google",
+        "type": "tls",
+        "server": "8.8.8.8"
+      }
+    ],
+    "rules": [
+
+    ]
+  },
+  "route": {
+    "default_domain_resolver": "local"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "store_rdrc": true
+    },
+    "clash_api": {
+      "default_mode": "Enhanced"
+    }
+  }
+}
